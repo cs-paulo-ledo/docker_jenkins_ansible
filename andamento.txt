@@ -1,0 +1,8 @@
+24/05/2015:
+
+Etapa 1 Concluida: **2. Configurando o jenkins: instalando os plugins**
+Aqui temos então um container rodando com o jenkins iniciado com sua configuração padrão 
+
+Não consegui concluir a fase de instalar os plugins porque a rede aqui em casa esta horrivel
+Na Titans vou conluir essa fase. No fim precisaremos garantir que o container irá subir com o 
+Jenkins e seus plugins rodando e tendo sido configurados pelo Ansible

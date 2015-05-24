@@ -1,0 +1,49 @@
+---
+
+jenkins_name: jenkins
+jenkins_user: jenkins
+jenkins_group: jenkins
+jenkins_apt_key: http://pkg.jenkins-ci.org/debian/jenkins-ci.org.key
+jenkins_apt_key_id: D50582E6
+jenkins_apt_repository: deb http://pkg.jenkins-ci.org/debian binary/
+jenkins_plugin_dir: /var/lib/jenkins/plugins/
+
+plugins_list:
+    - https://updates.jenkins-ci.org/latest/copyartifact.hpi
+    - https://updates.jenkins-ci.org/latest/email-ext.hpi
+    - https://updates.jenkins-ci.org/latest/emailext-template.hpi
+    - https://updates.jenkins-ci.org/latest/external-monitor-job.hpi
+    - https://updates.jenkins-ci.org/latest/git-client.hpi
+    - https://updates.jenkins-ci.org/latest/git-client.hpi
+    - https://updates.jenkins-ci.org/latest/gradle.hpi
+    - https://updates.jenkins-ci.org/latest/htmlpublisher.hpi
+    - https://updates.jenkins-ci.org/latest/javadoc.hpi
+    - https://updates.jenkins-ci.org/latest/job-import-plugin.hpi
+    - https://updates.jenkins-ci.org/latest/junit.hpi
+    - https://updates.jenkins-ci.org/latest/mailer.hpi
+    - https://updates.jenkins-ci.org/latest/monitoring.hpi
+    - https://updates.jenkins-ci.org/latest/postbuild-task.hpi
+    - https://updates.jenkins-ci.org/latest/saferestart.hpi
+    - https://updates.jenkins-ci.org/latest/build-pipeline-plugin.hpi
+    - https://updates.jenkins-ci.org/latest/delivery-pipeline-plugin.hpi
+    - https://updates.jenkins-ci.org/latest/promoted-builds.hpi
+    - https://updates.jenkins-ci.org/latest/promoted-builds-simple.hpi
+    - https://updates.jenkins-ci.org/latest/backup.hpi
+    - https://updates.jenkins-ci.org/latest/ci-skip.hpi
+    - https://updates.jenkins-ci.org/latest/jquery.hpi
+    - https://updates.jenkins-ci.org/latest/parameterized-trigger.hpi
+    - http://updates.jenkins-ci.org/latest/git.hpi
+    - http://updates.jenkins-ci.org/latest/github.hpi
+    - http://updates.jenkins-ci.org/latest/github-api.hpi
+    - http://updates.jenkins-ci.org/latest/multiple-scms.hpi
+    - http://updates.jenkins-ci.org/latest/token-macro.hpi
+    - http://updates.jenkins-ci.org/latest/mailer.hpi
+    - http://updates.jenkins-ci.org/latest/scm-api.hpi
+    - http://updates.jenkins-ci.org/latest/matrix-project.hpi
+    - http://updates.jenkins-ci.org/latest/ssh-credentials.hpi
+    - http://updates.jenkins-ci.org/latest/credentials.hpi
+    - http://updates.jenkins-ci.org/latest/conditional-buildstep.hpi
+    - http://updates.jenkins-ci.org/latest/rebuild.hpi
+    - http://updates.jenkins-ci.org/latest/maven-plugin.hpi
+    - http://updates.jenkins-ci.org/latest/ansicolor.hpi
+

@@ -1,0 +1,12 @@
+---
+- name: Adicionando a chave do repositio
+  apt_key: url={{ jenkins_apt_key }} id={{ jenkins_apt_key_id}} state=present
+
+- name: Adicionando o repositorio
+  apt_repository: repo="{{ jenkins_apt_repository }}" update_cache=yes state=present
+
+- name: Instalando o Jenkins via repositorio
+  apt: name=jenkins state=latest
+
+- name: Inserindo Jenkins no boot
+  service: name=jenkins enabled=yes state=started

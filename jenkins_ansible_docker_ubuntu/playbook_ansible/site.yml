@@ -1,0 +1,8 @@
+---
+
+- name: Configurando o container docker jenkins
+  hosts: local
+  remote_user: root
+  roles:
+    - conf_jenkins
+

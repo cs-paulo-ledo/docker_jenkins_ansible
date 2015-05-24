@@ -1,0 +1,4 @@
+1) Utilizar o volume para ter mais velocidade no desenvolvimento da solucao
+2) Prepara a virada para a instalacao com o jenkins_cli
+3) Separar a lista de plugins mais usados:
+  - Ver o eail do Oscar

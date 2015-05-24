@@ -1,0 +1,3 @@
+---
+
+- include: jenkins_control_service

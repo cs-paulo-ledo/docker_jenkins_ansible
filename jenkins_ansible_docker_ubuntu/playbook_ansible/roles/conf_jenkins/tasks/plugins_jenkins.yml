@@ -1,0 +1,6 @@
+---
+
+- name: Testando a instalacao de plugin com iteracao em lista
+  get_url: url={{ item }} dest={{ jenkins_plugin_dir }} owner=jenkins group=jenkins mode=0644
+  with_items: plugins_list
+  notify: jenkins restart
