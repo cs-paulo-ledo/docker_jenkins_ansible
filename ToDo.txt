@@ -1,0 +1,6 @@
+1- Adicionar os plugins que o Oscar indicou no email
+2- Resolver a necessidade de um restart no jenkins logo quando o container
+	sobe para habilitar os plugins
+3- Inserir os Jobs padrão
+4- Inserir uma view com do plugin monitor
+

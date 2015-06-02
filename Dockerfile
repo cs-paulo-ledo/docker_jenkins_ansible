@@ -21,8 +21,8 @@ ADD playbook_ansible $ANSIBLE_WORKDIR/
 WORKDIR $ANSIBLE_WORKDIR
 RUN ansible-playbook -i hosts.yml site.yml -c local -vvv -t install_jenkins
 RUN mkdir $JENKINS_PLUGINS
+RUN ansible-playbook -i hosts.yml site.yml -c local -vvv -t install_plugins
 RUN chown -R jenkins.jenkins $JENKINS_HOME 
-RUN ansible-playbook -i hosts.yml site.yml -c local -vvv -t plugins_jenkins
-CMD service jenkins start
-
 EXPOSE 8080
+CMD ["java", "-jar", "/usr/share/jenkins/jenkins.war"]
+
